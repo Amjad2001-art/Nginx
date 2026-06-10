@@ -1,11 +1,22 @@
-﻿Run the project:
+﻿Nginx project run instructions
+
+1. Install dependencies / initialize npm environment:
+
+npm install
+
+2. Start the local server:
 
 npm.cmd run dev
 
-Open:
+3. Open:
 
 http://127.0.0.1:5188
 
-Alternative:
+4. Alternative start command:
 
 node server.mjs
+
+Notes:
+- node_modules is intentionally not uploaded to GitHub.
+- .npm-cache is intentionally not uploaded to GitHub.
+- This project includes React, ReactDOM, and Babel locally inside vendor/.

@@ -27,9 +27,29 @@ vendor/             Local React, ReactDOM, and Babel files
 package.json        Run script
 ```
 
+## Environment Requirements
+
+Install Node.js first if it is not already installed.
+
+Recommended:
+
+- Node.js 18 or newer
+- npm, included with Node.js
+
+Check versions:
+
+```powershell
+node --version
+npm.cmd --version
+```
+
 ## Run Locally
 
-This project does not require downloading frontend dependencies because React, ReactDOM, and Babel are included locally in the `vendor` folder.
+After cloning the repository, open PowerShell inside the project folder and run:
+
+```powershell
+npm install
+```
 
 Start the local server:
 
@@ -48,6 +68,8 @@ Alternative command:
 ```powershell
 node server.mjs
 ```
+
+Note: this project has no external npm dependencies, but `npm install` is included as a standard setup step for the instructor after cloning. The React, ReactDOM, and Babel browser files are included locally in the `vendor` folder.
 
 ## How To Demonstrate The Features
 
@@ -101,4 +123,4 @@ node server.mjs
 
 ## Notes For The Instructor
 
-The project is self-contained. After cloning, run `npm.cmd run dev` and open `http://127.0.0.1:5188`.
+The project is self-contained. After cloning, run `npm install`, then `npm.cmd run dev`, and open `http://127.0.0.1:5188`.
