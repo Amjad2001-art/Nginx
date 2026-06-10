@@ -1,0 +1,11 @@
+﻿Run the project:
+
+npm.cmd run dev
+
+Open:
+
+http://127.0.0.1:5188
+
+Alternative:
+
+node server.mjs
